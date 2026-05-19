@@ -1,0 +1,13 @@
+{
+  "repo": "student-performance-analysis",
+  "title": "Student Performance Analysis",
+  "category": "Data-Science-Projects",
+  "description": "A data science project for analyzing student exam performance and clustering patterns with K-Means.",
+  "topics": [
+    "data-science",
+    "education",
+    "eda",
+    "clustering",
+    "kmeans"
+  ]
+}
