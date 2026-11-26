@@ -1,5 +1,7 @@
 # Student Performance Analysis
 
+> **Phase 2 repair branch:** The K-means notebook now reads `StudentsPerformance.csv` once from `STUDENT_DATA_DIR` (default current directory) and fixes the malformed pie-chart function definition. The separate exploratory notebook is unchanged and still uses its original data path. Original dataset and full notebook execution remain unverified. The historical description below documents the pre-repair baseline; use the instructions above for the repaired notebook. Full execution and dependency resolution are pending.
+
 ## Overview and problem statement
 
 Explore student exam scores and group patterns using descriptive plots and unsupervised clustering for educational analytics.
