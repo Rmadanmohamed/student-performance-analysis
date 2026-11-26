@@ -47,7 +47,7 @@ No environment variables are required by the reviewed notebook code. Data paths 
 
 ## Usage, evaluation and limitations
 
-Run the EDA notebook to produce charts; the clustering notebook reads both `/content/StudentsPerformance.csv` and `../content/StudentsPerformance.csv` and uses columns from position 2 onward. A later cell begins `1def` and is invalid Python; execute valid cells individually. No saved metrics or plots found. Unscaled score features and ordinal-coded categories may distort distances; group comparisons are descriptive, not causal or appropriate for high-stakes student decisions.
+Run the EDA notebook to produce charts; the clustering notebook uses a single dataset load, fixed random seed, repaired pie-chart function and category-aligned bar charts. Supply the original dataset before execution. No saved metrics or plots found. Unscaled score features and ordinal-coded categories may distort distances; group comparisons are descriptive, not causal or appropriate for high-stakes student decisions.
 
 ## Testing and validation
 
@@ -62,3 +62,7 @@ No standalone screenshots or verified live demo were found. Visualizations are g
 **Ramadan Mohamed Hassan** — AI Engineer | AI Researcher | AI Automation | LLM & RAG Systems | Machine Learning
 
 [Portfolio](https://ramadan-ai-portfolio.vercel.app/) · [LinkedIn](https://www.linkedin.com/in/ramadan-mohamed-89085a366/) · [GitHub](https://github.com/Rmadanmohamed) · [Email](mailto:ramadanmohameddd3@gmail.com)
+
+## Repair-branch validation status
+
+The changed notebook was statically inspected and saved on a review branch. Original datasets are unavailable to this audit, and no notebook training, test scores, dependency resolution or end-to-end execution is claimed. Dependency versions remain unpinned until a compatible environment can be verified.
